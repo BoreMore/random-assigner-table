@@ -1,0 +1,46 @@
+div {
+    text-align:center;
+    padding:5px;
+}
+button {
+    margin:2px;
+}
+h1 {
+    text-shadow: 5px 5px 8px lightgreen;
+}
+table {
+    text-align:center;
+}
+th {
+    font-size: 32px;
+    text-shadow: 2px 2px 5px darkturquoise;
+}
+td {
+    font-size:25px;
+    text-shadow: 2px 2px 5px lightskyblue;
+}
+h3 {
+    text-shadow: 3px 3px 5px darkseagreen;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+thead {
+    text-align: center;
+}

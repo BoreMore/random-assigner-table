@@ -1,0 +1,70 @@
+<!-- 7/21/18 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Assigner</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="display-3">Random Assigner</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Names</h3>
+        </div>
+        <div class="col-md-6">
+            <h3>Assignments</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input id="namesValues" class="form-control" type="text" placeholder="Enter names" onkeydown="keyDown()">    
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input id="assignmentValues" class="form-control" type="text" placeholder="Enter assignments" onkeydown="keyDown()">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class=col-md-12>
+            <button id="enterButton" type="button" class="btn btn-success btn-lg btn-block" onclick="addFunction()">Enter</button>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-outline-success btn-lg btn-block" onclick="displayNameAssignments()">Get random assignments</button>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="table-info">
+                            <th>Names</th>
+                            <th>Assignments</th>
+                        </tr>
+                    </thead>
+                    <tbody id="write">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <br>
+    <p>Made by <a href="https://github.com/BoreMore" target="_blank">BoreMore</a></p>
+</div>
+<script src="assets/javascript/script.js"></script>
+</body>
+</html>
